@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { motion } from "framer-motion";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../Context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FaEnvelope, FaLock, FaPlane, FaMountain, FaUmbrellaBeach } from "react-icons/fa";
